@@ -1,0 +1,26 @@
+body{
+    background-color: #464E47;
+}
+.title{
+    color: mintcream;
+    font-size:100px;
+
+    
+}
+@keyframes reveal {
+    from{
+        opacity: 0;
+        clip-path: inset(45% 20% 45% 20%);
+    } 
+    50% {
+        opacity: 1;
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+.revealing-image{
+    animation: reveal linear reverse;
+    animation-timeline: view();
+
+}
+
+
