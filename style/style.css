@@ -1,19 +1,12 @@
-
-.modak-regular {
-    font-family: "Modak", system-ui;
+h1, p{
+  font-family: "Modak", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
-  .title{
-    color:#FFB8DE;
+    color: #97C8EB;
     font-size: 100px;
-  }
-.table-of-contents{
-    color: #FFB8DE;
-}
-h1{
-    color: #FFB8DE;
-}
-.border-side{
     border-bottom: 10px solid;
+
+}
+body{
+  background-color: #001011;
 }
