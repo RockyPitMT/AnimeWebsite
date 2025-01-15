@@ -1,34 +1,50 @@
 
-
-
-h1, p{
-  font-family: "Modak", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: #5D737E;
-    font-size: 50px;
-    border-bottom: 10px solid;
-
+html {
+  text-align: center;
 }
+
 h2 {
-  font-family: "Modak", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: #5D737E;
-    font-size: 25px;
-    border-bottom: 10px solid;
+  color: white;
+}
 
-}
-body{
-  background-color: #001011;
-}
-.navbar{
-  background-color: #5D737E;
-}
-.text{
+
+.text {
   color: #F0F7EE;
 }
-.sidebar{
-  background-color: #5D737E;
-  
+
+
+
+body {
+  background-image: url('https://i.gifer.com/Ozp.gif');
+  background-size: cover;
+
+
+
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-align: center;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #53c0f3, 0 0 40px #53c0f3, 0 0 50px #53c0f3, 0 0 60px #53c0f3, 0 0 70px #53c0f3, 0 0 80px #53c0f3;
+  }
+}
+
+.nav-link:hover{
+  background-color: lightblue;
 }
