@@ -48,3 +48,6 @@ body {
 .nav-link:hover{
   background-color: lightblue;
 }
+p{
+ color: white;
+}
